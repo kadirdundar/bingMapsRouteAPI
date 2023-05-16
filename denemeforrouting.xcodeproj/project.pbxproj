@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33CF6D25213FD8BDCC48B79D /* Pods_denemeforrouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984808A8F275D72A84B99FBB /* Pods_denemeforrouting.framework */; };
+		3F0A72502A0FF4B0007D85EF /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A724F2A0FF4B0007D85EF /* model.swift */; };
 		3F2086992A0D44380001BE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2086982A0D44380001BE61 /* AppDelegate.swift */; };
 		3F20869B2A0D44380001BE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20869A2A0D44380001BE61 /* SceneDelegate.swift */; };
 		3F20869D2A0D44380001BE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20869C2A0D44380001BE61 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E9143D1995ABE6CD0770A62 /* Pods-denemeforrouting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denemeforrouting.release.xcconfig"; path = "Target Support Files/Pods-denemeforrouting/Pods-denemeforrouting.release.xcconfig"; sourceTree = "<group>"; };
+		2FA675D8373A631AF33B90CD /* Pods-denemeforrouting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-denemeforrouting.debug.xcconfig"; path = "Target Support Files/Pods-denemeforrouting/Pods-denemeforrouting.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0A724F2A0FF4B0007D85EF /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		3F2086952A0D44380001BE61 /* denemeforrouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denemeforrouting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2086982A0D44380001BE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F20869A2A0D44380001BE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		3F2086A12A0D443A0001BE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2086A42A0D443A0001BE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2086A62A0D443A0001BE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984808A8F275D72A84B99FBB /* Pods_denemeforrouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_denemeforrouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CF6D25213FD8BDCC48B79D /* Pods_denemeforrouting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3F2086972A0D44380001BE61 /* denemeforrouting */,
 				3F2086962A0D44380001BE61 /* Products */,
+				3FA213C6E51A0BCAB37682A6 /* Pods */,
+				7E39239CE7141725A63FC5C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				3F2086A12A0D443A0001BE61 /* Assets.xcassets */,
 				3F2086A32A0D443A0001BE61 /* LaunchScreen.storyboard */,
 				3F2086A62A0D443A0001BE61 /* Info.plist */,
+				3F0A724F2A0FF4B0007D85EF /* model.swift */,
 			);
 			path = denemeforrouting;
+			sourceTree = "<group>";
+		};
+		3FA213C6E51A0BCAB37682A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA675D8373A631AF33B90CD /* Pods-denemeforrouting.debug.xcconfig */,
+				2E9143D1995ABE6CD0770A62 /* Pods-denemeforrouting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E39239CE7141725A63FC5C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984808A8F275D72A84B99FBB /* Pods_denemeforrouting.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2086A92A0D443A0001BE61 /* Build configuration list for PBXNativeTarget "denemeforrouting" */;
 			buildPhases = (
+				0606D5FCAE9B0AA9D38CCA1B /* [CP] Check Pods Manifest.lock */,
 				3F2086912A0D44380001BE61 /* Sources */,
 				3F2086922A0D44380001BE61 /* Frameworks */,
 				3F2086932A0D44380001BE61 /* Resources */,
+				07A53DBCBDF58F8FA106A75B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0606D5FCAE9B0AA9D38CCA1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-denemeforrouting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07A53DBCBDF58F8FA106A75B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-denemeforrouting/Pods-denemeforrouting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-denemeforrouting/Pods-denemeforrouting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-denemeforrouting/Pods-denemeforrouting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F2086912A0D44380001BE61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +212,7 @@
 				3F20869D2A0D44380001BE61 /* ViewController.swift in Sources */,
 				3F2086992A0D44380001BE61 /* AppDelegate.swift in Sources */,
 				3F20869B2A0D44380001BE61 /* SceneDelegate.swift in Sources */,
+				3F0A72502A0FF4B0007D85EF /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,7 @@
 		};
 		3F2086AA2A0D443A0001BE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA675D8373A631AF33B90CD /* Pods-denemeforrouting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +382,7 @@
 		};
 		3F2086AB2A0D443A0001BE61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9143D1995ABE6CD0770A62 /* Pods-denemeforrouting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

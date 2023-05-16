@@ -1,0 +1,6 @@
+framework module Pods_denemeforrouting {
+  umbrella header "Pods-denemeforrouting-umbrella.h"
+
+  export *
+  module * { export * }
+}
